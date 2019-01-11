@@ -11,15 +11,18 @@
 		}
 
 		// **********
+		[System.ComponentModel.Browsable(false)]
 		public System.Guid Id { get; set; }
 		// **********
 
 		// **********
-		//[System.ComponentModel.DisplayName
-		//	(displayName: "سن")]
+		// دستور ذیل منسوخ شده است
+		// ولی در محیط ویندوز فرم، اتفاقا دستور ذیل کار می‌کند
+		[System.ComponentModel.DisplayName
+			(displayName: "Age")]
 
-		[System.ComponentModel.DataAnnotations.Display
-			(Name = "سن")]
+		//[System.ComponentModel.DataAnnotations.Display
+		//	(Name = "سن")]
 		public int Age { get; set; }
 		// **********
 
@@ -28,9 +31,13 @@
 		// **********
 
 		// **********
+		[System.ComponentModel.DisplayName
+			(displayName: "National Code")]
 		public string NationalCode { get; set; }
 		// **********
 
+		// **********
+		// **********
 		// **********
 		//public string FirstName { get; set; }
 		// **********
@@ -42,14 +49,19 @@
 		// **********
 		//public string LastName { get; set; }
 		// **********
+		// **********
+		// **********
 
 		// **********
 		// **********
 		// **********
+		[System.ComponentModel.Browsable(false)]
 		public ComplexTypes.FullName FullName { get; set; }
 		// **********
 
 		// **********
+		[System.ComponentModel.DisplayName
+			(displayName: "Full Name")]
 		public string DisplayFullName
 		{
 			get

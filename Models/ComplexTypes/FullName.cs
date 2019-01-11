@@ -39,13 +39,13 @@
 			if (string.IsNullOrWhiteSpace(MiddleName) == false)
 			{
 				result =
-					$"{ result } { MiddleName.Trim() }";
+					$"{ result } { MiddleName.Trim() }".Trim();
 			}
 
 			if (string.IsNullOrWhiteSpace(LastName) == false)
 			{
 				result =
-					$"{ result } { LastName.Trim() }";
+					$"{ result } { LastName.Trim() }".Trim();
 			}
 
 			return result;

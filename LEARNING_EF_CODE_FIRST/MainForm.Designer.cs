@@ -39,7 +39,7 @@
 			this.addSomeNewPeopleButton.TabIndex = 0;
 			this.addSomeNewPeopleButton.Text = "Add Some New People";
 			this.addSomeNewPeopleButton.UseVisualStyleBackColor = true;
-			this.addSomeNewPeopleButton.Click += new System.EventHandler(this.addSomeNewPeopleButton_Click);
+			this.addSomeNewPeopleButton.Click += new System.EventHandler(this.AddSomeNewPeopleButton_Click);
 			// 
 			// displayPeopleButton
 			// 
@@ -51,7 +51,7 @@
 			this.displayPeopleButton.TabIndex = 1;
 			this.displayPeopleButton.Text = "Display People";
 			this.displayPeopleButton.UseVisualStyleBackColor = true;
-			this.displayPeopleButton.Click += new System.EventHandler(this.displayPeopleButton_Click);
+			this.displayPeopleButton.Click += new System.EventHandler(this.DisplayPeopleButton_Click);
 			// 
 			// peopleListBox
 			// 

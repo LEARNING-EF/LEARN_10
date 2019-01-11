@@ -13,7 +13,7 @@ namespace LEARNING_EF_CODE_FIRST
 		{
 		}
 
-		private void addSomeNewPeopleButton_Click(object sender, System.EventArgs e)
+		private void AddSomeNewPeopleButton_Click(object sender, System.EventArgs e)
 		{
 			Models.DatabaseContext databaseContext = null;
 
@@ -93,7 +93,7 @@ namespace LEARNING_EF_CODE_FIRST
 			}
 		}
 
-		private void displayPeopleButton_Click(object sender, System.EventArgs e)
+		private void DisplayPeopleButton_Click(object sender, System.EventArgs e)
 		{
 			Models.DatabaseContext databaseContext = null;
 
