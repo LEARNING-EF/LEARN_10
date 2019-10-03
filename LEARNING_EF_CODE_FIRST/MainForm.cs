@@ -26,10 +26,11 @@ namespace LEARNING_EF_CODE_FIRST
 
 				// **************************************************
 				person =
-					new Models.Person();
-
-				person.Age = 20;
-				person.NationalCode = "1111111111";
+					new Models.Person
+					{
+						Age = 20,
+						NationalCode = "1111111111",
+					};
 
 				person.FullName.FirstName = " Sara   ";
 				person.FullName.LastName = "        Ahmadi        ";
@@ -39,10 +40,11 @@ namespace LEARNING_EF_CODE_FIRST
 
 				// **************************************************
 				person =
-					new Models.Person();
-
-				person.Age = 30;
-				person.NationalCode = "2222222222";
+					new Models.Person
+					{
+						Age = 30,
+						NationalCode = "2222222222",
+					};
 
 				person.FullName.FirstName = "        Ali   ";
 				person.FullName.MiddleName = "    Reza         ";
@@ -53,20 +55,22 @@ namespace LEARNING_EF_CODE_FIRST
 
 				// **************************************************
 				person =
-					new Models.Person();
-
-				person.Age = 40;
-				person.NationalCode = "3333333333";
+					new Models.Person
+					{
+						Age = 40,
+						NationalCode = "3333333333",
+					};
 
 				databaseContext.People.Add(person);
 				// **************************************************
 
 				// **************************************************
 				person =
-					new Models.Person();
-
-				person.Age = 50;
-				person.NationalCode = "4444444444";
+					new Models.Person
+					{
+						Age = 50,
+						NationalCode = "4444444444",
+					};
 
 				person.FullName.FirstName = "Mohammad";
 				person.FullName.MiddleName = "Ali";
@@ -88,7 +92,7 @@ namespace LEARNING_EF_CODE_FIRST
 				if (databaseContext != null)
 				{
 					databaseContext.Dispose();
-					databaseContext = null;
+					//databaseContext = null;
 				}
 			}
 		}
@@ -110,8 +114,8 @@ namespace LEARNING_EF_CODE_FIRST
 					.ToList()
 					;
 
-				peopleListBox.ValueMember = "Id";
-				peopleListBox.DisplayMember = "DisplayFullName";
+				peopleListBox.ValueMember = nameof(Models.Person.Id);
+				peopleListBox.DisplayMember = nameof(Models.Person.DisplayFullName);
 				peopleListBox.DataSource = people;
 
 				peopleDataGridView.DataSource = people;
@@ -125,7 +129,7 @@ namespace LEARNING_EF_CODE_FIRST
 				if (databaseContext != null)
 				{
 					databaseContext.Dispose();
-					databaseContext = null;
+					//databaseContext = null;
 				}
 			}
 		}

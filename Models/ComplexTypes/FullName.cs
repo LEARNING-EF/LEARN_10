@@ -2,6 +2,7 @@
 {
 	/// <summary>
 	/// Note: Should Be Class!
+	/// Note: ComplexType Attribute is not required!
 	/// </summary>
 	[System.ComponentModel.DataAnnotations.Schema.ComplexType]
 	public class FullName : object
@@ -26,6 +27,11 @@
 		//	(maximumLength: 50)]
 		public string LastName { get; set; }
 		// **********
+
+		//public override string ToString()
+		//{
+		//	return base.ToString();
+		//}
 
 		public override string ToString()
 		{

@@ -35,7 +35,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.addSomeNewPeopleButton.Location = new System.Drawing.Point(12, 12);
 			this.addSomeNewPeopleButton.Name = "addSomeNewPeopleButton";
-			this.addSomeNewPeopleButton.Size = new System.Drawing.Size(854, 23);
+			this.addSomeNewPeopleButton.Size = new System.Drawing.Size(576, 23);
 			this.addSomeNewPeopleButton.TabIndex = 0;
 			this.addSomeNewPeopleButton.Text = "Add Some New People";
 			this.addSomeNewPeopleButton.UseVisualStyleBackColor = true;
@@ -47,7 +47,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.displayPeopleButton.Location = new System.Drawing.Point(12, 41);
 			this.displayPeopleButton.Name = "displayPeopleButton";
-			this.displayPeopleButton.Size = new System.Drawing.Size(854, 23);
+			this.displayPeopleButton.Size = new System.Drawing.Size(576, 23);
 			this.displayPeopleButton.TabIndex = 1;
 			this.displayPeopleButton.Text = "Display People";
 			this.displayPeopleButton.UseVisualStyleBackColor = true;
@@ -60,7 +60,7 @@
 			this.peopleListBox.FormattingEnabled = true;
 			this.peopleListBox.Location = new System.Drawing.Point(12, 70);
 			this.peopleListBox.Name = "peopleListBox";
-			this.peopleListBox.Size = new System.Drawing.Size(854, 108);
+			this.peopleListBox.Size = new System.Drawing.Size(576, 108);
 			this.peopleListBox.TabIndex = 2;
 			// 
 			// peopleDataGridView
@@ -71,14 +71,14 @@
 			this.peopleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.peopleDataGridView.Location = new System.Drawing.Point(12, 184);
 			this.peopleDataGridView.Name = "peopleDataGridView";
-			this.peopleDataGridView.Size = new System.Drawing.Size(854, 285);
+			this.peopleDataGridView.Size = new System.Drawing.Size(576, 122);
 			this.peopleDataGridView.TabIndex = 3;
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(878, 481);
+			this.ClientSize = new System.Drawing.Size(600, 318);
 			this.Controls.Add(this.peopleDataGridView);
 			this.Controls.Add(this.peopleListBox);
 			this.Controls.Add(this.displayPeopleButton);
