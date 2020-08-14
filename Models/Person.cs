@@ -19,7 +19,7 @@
 		// دستور ذیل منسوخ شده است
 		// ولی در محیط ویندوز فرم، اتفاقا دستور ذیل کار می‌کند
 		[System.ComponentModel.DisplayName
-			(displayName: "Age")]
+			(displayName: "سن")]
 
 		//[System.ComponentModel.DataAnnotations.Display
 		//	(Name = "سن")]
